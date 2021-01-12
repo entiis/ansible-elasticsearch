@@ -33,6 +33,7 @@
   with_items:
     - "{{ es_log_dir }}"
     - "{{ es_data_dirs }}"
+    - "{{ es_tmp_dir }}"
 
 #Copy the config template
 - name: Copy Configuration File

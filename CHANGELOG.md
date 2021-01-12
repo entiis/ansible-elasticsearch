@@ -1,5 +1,31 @@
 # Changelog
 
+## 7.10.1
+
+* 7.10.1 as default version.
+
+
+| PR | Author | Title |
+| --- | --- | --- |
+| [#747](https://github.com/elastic/ansible-elasticsearch/pull/747) | [@fourstepper](https://github.com/fourstepper) | Fix idempotency for both supported CentOS versions  |
+| [#744](https://github.com/elastic/ansible-elasticsearch/pull/744) | [@v1v](https://github.com/v1v) | Support CentOS 8  |
+| [#736](https://github.com/elastic/ansible-elasticsearch/pull/736) | [@jmlrt](https://github.com/jmlrt) | Fix test-kitchen net-scp-error  |
+
+
+## 7.10.0
+
+* 7.10.0 as default version.
+
+
+| PR | Author | Title |
+| --- | --- | --- |
+| [#742](https://github.com/elastic/ansible-elasticsearch/pull/742) | [@jmlrt](https://github.com/jmlrt) | convert custom filter to python3  |
+| [#741](https://github.com/elastic/ansible-elasticsearch/pull/741) | [@jmlrt](https://github.com/jmlrt) | [meta] clean deprecated bumper script  |
+| [#740](https://github.com/elastic/ansible-elasticsearch/pull/740) | [@jmlrt](https://github.com/jmlrt) | fix some typos  |
+| [#728](https://github.com/elastic/ansible-elasticsearch/pull/728) | [@smutel](https://github.com/smutel) | Improve the documentation for TLS  |
+| [#739](https://github.com/elastic/ansible-elasticsearch/pull/739) | [@0xflotus](https://github.com/0xflotus) | fix: small error  |
+
+
 ## 7.9.3
 
 * 7.9.3 as default version.

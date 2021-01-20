@@ -104,3 +104,14 @@
     force: yes
   notify: restart elasticsearch
   when: es_config_log4j2 != ''
+
+- name: Upload log4j2.properties File from files/
+  become: yes
+  copy:
+    src: "{{ es_config_log4j2_file }}"
+    dest: "{{ es_conf_dir }}/log4j2.properties"
+    owner: root
+    group: "{{ es_group }}"
+    mode: "660"
+  notify: restart elasticsearch
+  when: es_config_log4j2_file != ''

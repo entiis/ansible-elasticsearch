@@ -1,5 +1,60 @@
 # Changelog
 
+## 7.13.3
+
+* 7.13.3 as default version.
+* 6.8.17 as 6.x tested version
+
+
+| PR | Author | Title |
+| --- | --- | --- |
+| [#800](https://github.com/elastic/ansible-elasticsearch/pull/800) | [@chuckmilam](https://github.com/chuckmilam) | Minor correction for readability.  |
+
+
+## 7.13.2
+
+* 7.13.2 as default version.
+
+## 7.13.1
+
+* 7.13.1 as default version.
+
+## 7.13.0
+
+* 7.13.0 as default version.
+* 6.8.16 as 6.x tested version
+
+
+| PR | Author | Title |
+| --- | --- | --- |
+| [#796](https://github.com/elastic/ansible-elasticsearch/pull/796) | [@jmlrt](https://github.com/jmlrt) | Fails deployment when using tls without security  |
+| [#745](https://github.com/elastic/ansible-elasticsearch/pull/745) | [@v1v](https://github.com/v1v) | Support ubuntu-20  |
+
+
+## 7.12.1
+
+* 7.12.1 as default version.
+
+
+| PR | Author | Title |
+| --- | --- | --- |
+| [#793](https://github.com/elastic/ansible-elasticsearch/pull/793) | [@jmlrt](https://github.com/jmlrt) | [meta] update ubuntu-1804 during kitchen provisioning  |
+| [#787](https://github.com/elastic/ansible-elasticsearch/pull/787) | [@tobiashuste](https://github.com/tobiashuste) | Stop plugin install to fail in check mode  |
+
+
+## 7.12.0
+
+* 7.12.0 as default version.
+* 6.8.15 as 6.x tested version
+
+
+| PR | Author | Title |
+| --- | --- | --- |
+| [#789](https://github.com/elastic/ansible-elasticsearch/pull/789) | [@jmlrt](https://github.com/jmlrt) | Use ES_JAVA_HOME instead of JAVA_HOME  |
+| [#788](https://github.com/elastic/ansible-elasticsearch/pull/788) | [@jmlrt](https://github.com/jmlrt) | Fix deb and rpm url  |
+| [#784](https://github.com/elastic/ansible-elasticsearch/pull/784) | [@jmlrt](https://github.com/jmlrt) | [meta] fix changelog after 7.11.2 release  |
+
+
 ## 7.11.2
 
 * 7.11.2 as default version.
